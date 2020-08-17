@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import { Avatra, Avatar} from '@material-ui/core'
+import { Avatar} from '@material-ui/core'
 import SearchIcon from "@material-ui/icons/Search";
 import AccessTimeIcom from "@material-ui/icons/Search";
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline'
@@ -12,7 +12,7 @@ function Header() {
 
     return (
         <div className='header'>
-            <div clasName='jeader__left'>
+            <div clasName='header__left'>
 <Avatar className='header__avatar' alt={user?.displayName} src={user?.photoURL}  />
             </div>
             <div className='header__search'>
